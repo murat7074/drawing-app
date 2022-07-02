@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Drawing App</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://images.unsplash.com/photo-1463725876303-ff840e2aa8d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDIyMTd8MHwxfHNlYXJjaHwzfHx2aWV3fGVufDB8fHx8MTY1Njc2MTU4MQ&ixlib=rb-1.2.1&q=80&w=1080"
+        alt=""
+      />
+      <div class="canvas-container">
+        <canvas id="canvas" width="800" height="600"> </canvas>
+        <div class="toolbox">
+          <button id="decrease">-</button>
+          <span id="size">10</span>
+          <button id="increase">+</button>
+          <input type="color" id="color" />
+          <button id="clear">
+            <i class="fa fa-trash"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
